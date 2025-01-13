@@ -1,6 +1,14 @@
 {
+  "name": "restful-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
   "dependencies": {
     "body-parser": "^1.20.3",
+    "express": "^4.21.2",
     "mongoose": "^8.9.4",
     "nodemon": "^3.1.9"
   },
